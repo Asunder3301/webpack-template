@@ -1,13 +1,4 @@
 # Ignore artifacts:
-node_modules/
 dist/
-webpack.common.js
-webpack.dev.js
-webpack.prod.js
-eslint.config.js
-.prettierrc
-.prettierignore
 package.json
-package-lock.js
-.git
-.gitignore
+package-lock.json
