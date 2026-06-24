@@ -26,6 +26,7 @@
   "homepage": "https://github.com/Asunder3301/webpack-template#readme",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "eslint-webpack-plugin": "^6.0.0",
     "css-loader": "^7.1.4",
     "css-minimizer-webpack-plugin": "^8.0.0",
     "eslint": "^10.5.0",
@@ -40,5 +41,8 @@
     "webpack-cli": "^7.0.3",
     "webpack-dev-server": "^5.2.4",
     "webpack-merge": "^6.0.1"
+  },
+  "dependencies": {
+
   }
 }
