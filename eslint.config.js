@@ -9,6 +9,7 @@ export default defineConfig([
   {
     ignores: ["dist/**", "node_modules/**", "webpack.*.js", ".git"],
   },
+  eslintReact.configs.recommended,
   {
     files: ["src/**/*.{js,jsx}"],
     languageOptions: {
@@ -22,10 +23,11 @@ export default defineConfig([
     plugins: {
       "react-hooks": reactHooksPlugin,
     },
-    ...eslintReact.configs.recommended,
     rules: {
       ...js.configs.recommended.rules,
-      ...reactHooksPlugin.configs.recommended.rules,
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+
       "no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
       "no-console": "off",
       eqeqeq: ["error", "always"],
