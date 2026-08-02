@@ -19,6 +19,11 @@ export default defineConfig([
         ...globals.browser,
         ...globals.jest,
       },
+      parserOptions: {
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
     },
     plugins: {
       "react-hooks": reactHooksPlugin,
