@@ -10,7 +10,7 @@ export default merge(common, {
   },
   plugins: [
     new ESLintWebpackPlugin({
-      extensions: ["js", "mjs"],
+      extensions: ["js", "mjs", "jsx"],
       fix: true,
       emitWarning: true,
       emitError: true,
