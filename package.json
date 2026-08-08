@@ -2,7 +2,7 @@
   "name": "webpack-template",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "test": "jest",
     "watch": "jest --watch *.js",
