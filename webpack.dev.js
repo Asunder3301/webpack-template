@@ -21,16 +21,16 @@ export default merge(common, {
       {
         test: /\.css$/i,
         use: [
-          "style-loader", 
+          "style-loader",
           {
             loader: "css-loader",
             options: {
               modules: {
                 auto: true,
                 localIdentName: "[name]__[local]--[hash:base64:5]",
-              }
-            }
-          }
+              },
+            },
+          },
         ],
       },
     ],
