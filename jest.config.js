@@ -1,8 +1,6 @@
 export default {
   testEnvironment: "jsdom",
-  collectCoverage: true,
-  collectCoverageFrom: ["src/**/*.{js,jsx}"],
-  coverageDirectory: "coverage",
+  collectCoverage: false,
   setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
   moduleFileExtensions: ["js", "jsx", "json", "node"],
   transform: {
