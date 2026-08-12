@@ -7,6 +7,6 @@ export default {
     "^.+\\.(js|jsx)$": "babel-jest",
   },
   moduleNameMapper: {
-    "\\.(css)$": "./src/styleMock.js",
+    "\\.(css)$": "<rootDir>/src/styleMock.js",
   },
 };
