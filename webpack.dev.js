@@ -7,6 +7,7 @@ export default merge(common, {
   devtool: "eval-source-map",
   devServer: {
     watchFiles: ["./src/template.html"],
+    historyApiFallback: true,
   },
   plugins: [
     new ESLintWebpackPlugin({
