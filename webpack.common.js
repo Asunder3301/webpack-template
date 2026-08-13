@@ -33,22 +33,6 @@ export default {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: "asset/resource",
       },
-      {
-        test: /\.css$/i,
-        use: [
-          "style-loader",
-          {
-            loader: "css-loader",
-            options: {
-              modules: {
-                auto: true,
-                localIdentName: "[name]__[local]--[hash:base64:5]",
-                namedExport: false,
-              },
-            },
-          },
-        ],
-      },
     ],
   },
 };
